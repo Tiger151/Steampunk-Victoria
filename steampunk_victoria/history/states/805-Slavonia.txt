@@ -1,0 +1,30 @@
+state={
+	id=805
+	name="STATE_805"
+	resources={
+		chromium=15.000
+	}
+
+	history={
+		victory_points = {
+			6647 2 
+		}
+		owner = YUG
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+
+		}
+		add_core_of = AUH
+		add_core_of = CRO
+		add_core_of = YUG
+
+	}
+	
+	provinces={
+		3627 6647 9595 9608 
+	}
+	manpower=806192
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

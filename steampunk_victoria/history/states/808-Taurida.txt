@@ -1,0 +1,35 @@
+state={
+	id=808
+	name="STATE_808"
+	resources={
+		chromium=5.000
+		steel=5.000
+		tungsten=10.000
+		oil=5.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 2
+			721 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+	
+	provinces={
+		568 721 737 767 3573 6771 9712 
+	}
+	manpower=1634700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

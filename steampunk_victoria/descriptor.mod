@@ -1,0 +1,17 @@
+version="0.1"
+tags={
+	"Alternative History"
+	"Balance"
+	"Events"
+	"Fixes"
+	"Gameplay"
+	"Graphics"
+	"Ideologies"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Sound"
+}
+name="Steampunk Victoria"
+picture="thumbnail.png"
+supported_version="1.9.*"
