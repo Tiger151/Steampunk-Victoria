@@ -22,3 +22,19 @@ Literally Megumin
 LG
 antonyBeevor
 Gucci Carol
+
+<b>How to Work on or Install</b>
+
+Info for those who are unfamilar to github:
+Insure you have a github account.
+
+1. Fork this project. (Top right button)
+2. Clone your fork (your copy) project in your %USERPROFILE%\Documents\Paradox Interactive\Hearts of Iron IV\mod or linux equivlant location. (git clone [link to your fork .git])
+3. Add a remote to your fork (links your online copy to the local copy). (git remote add origin [link to your fork .git])
+
+<b>To Submit Changes</b>
+1. use (git status) to see what changes you have made.
+2. For each change you make, use: (git add file). All of the files: (git add --all). Any file removals (git rm theFile).
+3. Create a commit. (git commit -m "Small summary of changes you made")]
+4. Push (Upload your changes to your own fork). ( git push origin master)
+5. For simplity login to github.com, navigate to your fork of the mod and click pull request.
