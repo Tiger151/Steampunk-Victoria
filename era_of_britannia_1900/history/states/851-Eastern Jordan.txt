@@ -1,0 +1,21 @@
+state={
+	id=851
+	name="STATE_851"
+	
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = OTT
+		add_core_of = JOR
+	}
+	
+	provinces={
+		1544 4440 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
