@@ -1,0 +1,36 @@
+### German ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+
+	country = {
+		GER_hohenzollern = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_hohenzollern"}
+			modifier = {
+				political_power_gain = 0.5
+			}
+			name = GER_hohenzollern
+			picture = idea_german_hohenzollern
+		}
+
+		####################
+		# Population ideas
+		####################
+
+		population_growth_increase = {
+		
+			picture = population_growth_increase
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = 0.40
+				#consumer_goods_factor = 0.02
+				#research_speed_factor = 0.02
+			}
+			
+		}

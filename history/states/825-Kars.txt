@@ -1,0 +1,29 @@
+
+state={
+	id=825
+	name="STATE_825"
+
+	history={
+		victory_points = {
+			10472 2 
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = TUR
+		add_claim_by = OTT
+
+	}
+
+	provinces={
+		6991 7454 10403 10472 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

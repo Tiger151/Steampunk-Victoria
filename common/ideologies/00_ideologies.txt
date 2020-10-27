@@ -1,0 +1,497 @@
+ideologies = {
+	
+
+	ultranationalist = {
+	
+		types = {
+		
+			ultranationalist_subtype = {
+			}
+			
+			ultranationalism = {
+			}
+			
+			japanese_ultranationalism = {
+			}
+			
+			jingoist = {
+			}
+			
+			radical_nationalist = {
+			}
+			
+			rexism = {
+			}
+			
+			far_right = {
+			}
+			
+			falangism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTRANATIONALIST_1"
+			"FACTION_NAME_ULTRANATIONALIST_2"
+			"FACTION_NAME_ULTRANATIONALIST_3"
+			"FACTION_NAME_ULTRANATIONALIST_4"
+			"FACTION_NAME_ULTRANATIONALIST_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 2.0			#Radical Nationalism
+		faction_impact_on_world_tension = 2.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		can_be_boosted = yes
+	}
+	
+	nationalist = {
+	
+		types = {
+		
+			national_populist_subtype = {
+			}
+			
+			national_populist = {
+			}
+			
+			nationalism = {
+			}
+			
+			chauvinist = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONALIST_1"
+			"FACTION_NAME_NATIONALIST_2"
+			"FACTION_NAME_NATIONALIST_3"
+			"FACTION_NAME_NATIONALIST_4"
+			"FACTION_NAME_NATIONALIST_5"
+		}
+		
+		color = { 150 75 0 }
+		
+		war_impact_on_world_tension = 1.0			#Nationalism
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			justify_war_goal_when_in_major_war_time = -0.80
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+
+		ai_fascist = yes # uses the fascist AI behaviour
+		can_be_boosted = yes
+	}
+
+	autocratic_monarchist = {
+		types = {
+			autocratic_monarchist_subtype = {
+			}
+			
+			royalist = {
+			}
+			
+			imperial_authoritarian = {
+			}
+			
+			absolute_monarchist = {	#Despotism
+			}
+			
+			constitutional_monarchist = {	#Parliamentary
+			}
+			
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_1"
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_2"
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_3"
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_4"
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_5"
+			"FACTION_NAME_AUTOCRAT_MONARCHIST_6"
+		}
+		color = { 45 45 45 }
+		
+		war_impact_on_world_tension = 1.0			#Autocratic Monarchist
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.05
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		can_be_boosted = yes
+	}
+
+	reactionary = {
+		types = {
+			reactionary_subtype = {
+			}
+			
+			reactionary_leader = {
+			}
+			
+			loyalist = {
+			}
+			
+			conservative_constitutionalist = {
+			}
+			
+			anti_western_reformist = {	#Russia
+			}
+			
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_1"
+			"FACTION_NAME_REACTIONARY_2"
+			"FACTION_NAME_REACTIONARY_3"
+			"FACTION_NAME_REACTIONARY_4"
+			"FACTION_NAME_REACTIONARY_5"
+			"FACTION_NAME_REACTIONARY_6"
+		}
+		color = { 255 255 255 }
+		
+		war_impact_on_world_tension = 1.0			#Anti western Reformist
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.05
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		can_be_boosted = yes
+	}
+
+	conservative = {
+		types = {
+			conservative_subtype = {
+			}
+			
+			right_wing = {
+			}
+			
+			social_conservatism = {
+			}
+			
+			islamist = {	#Pakistan
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+		}
+		color = { 0 0 255 }
+		
+		war_impact_on_world_tension = 1.0			#Conservatives
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+
+	centrist = {
+		types = {
+			centrist_subtype = {
+			}
+			
+			centrism = {
+			}
+			
+			isolationist = {
+			}
+			
+			moderationist = {
+			}
+			
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CENTRIST_1"
+			"FACTION_NAME_CENTRIST_2"
+			"FACTION_NAME_CENTRIST_3"
+			"FACTION_NAME_CENTRIST_4"
+			"FACTION_NAME_CENTRIST_5"
+			"FACTION_NAME_CENTRIST_6"
+		}
+		color = { 124 124 124 }
+		
+		war_impact_on_world_tension = 1.0			#Dead center
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.05
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_fascist = yes
+		can_be_boosted = yes
+	}
+
+	liberal = {
+		types = {
+			liberal_subtype = {
+			}
+			
+			left_wing_politician = {
+			}
+			
+			social_liberalism = {
+			}
+			
+			market_liberalism = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+			"FACTION_NAME_SOCIAL_LIBERAL_4"
+			"FACTION_NAME_SOCIAL_LIBERAL_5"
+			"FACTION_NAME_SOCIAL_LIBERAL_6"
+		}
+		color = { 255 170 0 }
+		
+		war_impact_on_world_tension = 1.0			#Liberalism
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+
+	socialist = {
+		types = {
+		
+			socialist_subtype = {
+			}
+			
+			syndicalism = {
+			}
+			
+			socialism = {
+			}
+			
+			christian_socialism = {
+			}
+			
+			fabianism = {
+			}
+			
+			social_progressive = {
+			}
+			
+			collectivism = {
+			}
+			
+			social_democrat = {
+			}
+			
+			environmentalist = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+			"FACTION_NAME_SOCIALIST_4"
+			"FACTION_NAME_SOCIALIST_5"
+			"FACTION_NAME_SOCIALIST_6"
+		}
+		color = { 255 128 128 }
+		
+		war_impact_on_world_tension = 1.0			#Socialism
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = no
+			can_join_factions = yes
+			can_create_factions = yes
+			can_send_volunteers = yes
+			can_create_collaboration_government = no
+		}
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_socialist = yes
+		can_be_boosted = yes
+	}
+
+	communist = {
+		
+		types = {
+		
+			communist_subtype = {
+			}
+			
+			marxism = {
+			}
+			
+			leninism = {
+			}
+			
+			stalinism = {
+			}
+			
+			de_leonism = {
+			}
+			
+			communism = {
+			}
+			
+			anti_revisionism = {
+			}
+			
+			anarcho_communist = {
+			}
+			
+			totalism = {
+			}
+			
+			far_left = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+		
+		color = { 200 0 0 }
+		
+		war_impact_on_world_tension = 2.0		#Communist party, pretty threatening
+		faction_impact_on_world_tension = 2.0
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_communist = yes # uses the fascist AI behaviour
+		can_be_boosted = yes
+
+	}
+}

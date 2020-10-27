@@ -1,0 +1,25 @@
+state={
+	id=828
+	name="STATE_828"
+	
+	history={
+		victory_points = {
+			853 5 	#Phoenix
+		}
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = CSA
+		add_core_of = USA
+	}
+	
+	provinces={
+		853 3834 3867 3883 4796 5044 7747 7920 8070 8115 10783 10914 12720 12791 
+	}
+	manpower=4200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

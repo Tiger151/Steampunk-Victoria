@@ -1,0 +1,37 @@
+### French ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+
+	country = {
+		FRA_french_colonialism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_french_colonialism"}
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = 0.01
+			}
+			name = FRA_french_colonialism
+			picture = FRA_french_colonialism
+		}
+
+		####################
+		# Population ideas
+		####################
+
+		population_growth_increase = {
+		
+			picture = population_growth_increase
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = 0.40
+				#consumer_goods_factor = 0.02
+				#research_speed_factor = 0.02
+			}
+			
+		}

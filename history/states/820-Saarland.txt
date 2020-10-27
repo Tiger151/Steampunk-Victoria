@@ -1,0 +1,24 @@
+state={
+	id=820
+	name="STATE_820"
+	
+	history={
+		victory_points = {
+			11531 2 	#Saarbrucken
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+	}
+	
+	provinces={
+		9575 11531 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
