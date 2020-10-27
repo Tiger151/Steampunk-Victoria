@@ -1,0 +1,25 @@
+state={
+	id=849
+	name="STATE_849"
+	
+	history={
+		victory_points = {
+			9818 2 	#Sandanski
+		}
+		owner = OTT
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = BUL
+	}
+	
+	provinces={
+		6857 9818 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

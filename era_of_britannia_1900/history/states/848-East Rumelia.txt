@@ -1,0 +1,22 @@
+state={
+	id=848
+	name="STATE_848"
+	
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = OTT
+		add_core_of = BUL
+	}
+	
+	provinces={
+		878 893 3937 9862 9888 9902 11813 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

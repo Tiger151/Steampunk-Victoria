@@ -1,0 +1,26 @@
+state={
+	id=852
+	name="STATE_852"
+	
+	history={
+		victory_points = {
+			453 2 		#Pavlograd
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+	
+	provinces={
+		453 472 486 9463 9479 11452 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
