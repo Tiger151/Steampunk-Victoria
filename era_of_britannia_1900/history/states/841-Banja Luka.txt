@@ -1,0 +1,26 @@
+state={
+	id=841
+	name="STATE_841"
+	
+	history={
+		victory_points = {
+			6983 2 	#Banja Luka
+		}
+		owner = BOS
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = BOS
+		add_core_of = SRP
+		add_claim_by = AUH
+	}
+	
+	provinces={
+		6619 6983 9588 9591 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
