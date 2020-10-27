@@ -2,6 +2,7 @@
 
 /*
 /*/
+*.mod
 !.gitignore
 !era_of_britannia_1900.mod
 !README.md
