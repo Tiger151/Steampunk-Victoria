@@ -1,7 +1,3 @@
-# Steampunk-Victoria
-Through the events that followed, German Unification, Russian Expansionism and the Industrial Revolution was thrown into a new era featuring technology new to man.
-Gears can work machines faster as well as move vessels to their destination and move countries past their obstacles to allow a great deal 
-of new scientific advancements for the coming ages to see. The Kaiser's ambitious plan to dominate Europe is to be contested by non other that the 
-Empires and Great Powers of the world. The Era of Steampunk has just begun...
+A Golden Age advanced Europe quickly into a new dawning Century. The British Navy dominates the ocean, protecting it's trade. A large collaboration between the unlikely empires come forth to turn Europe into a thriving continent, however the German Empire and Austria-Hungary proceed to threaten peace using their amitions against the West. Tensions build in North America as a possible Confederation return remains iminent to politicians. Welcome to a new era, an era of Steampunk...
 
 Please download GitHub desktop in order to have very easy updating.
