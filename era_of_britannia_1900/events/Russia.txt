@@ -1,0 +1,59 @@
+###########################
+# Russian Events
+###########################
+
+add_namespace = russia
+
+# Bloody Sunday
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_bloody_sunday
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { tag = SOV }
+	}
+	
+	hidden = yes
+	
+	option = {	#Vot der'mo
+		name = russia.1.c
+		add_ideas = RUS_bloody_sunday
+		set_country_flag = RUS_bloody_sunday
+		country_event = {
+			id = russia.2
+			days = 15
+			random = 50
+		}
+	}
+}
+
+# Socialist-Revolutionary Party Founded
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_bloody_sunday
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_country_flag = RUS_bloody_sunday
+	}
+	
+	hidden = yes
+	
+	option = {	#Stop them now!
+		name = russia.2.a
+		add_ideas = RUS_bloody_sunday
+	}
+}
+
+

@@ -1,0 +1,25 @@
+state={
+	id=812
+	name="STATE_812"
+	
+	history={
+		victory_points = {
+			11516 2 	#Nancy
+		}
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+
+		}
+		add_core_of = FRA
+		add_claim_by = GER
+	}
+	
+	provinces={
+		521 11516 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

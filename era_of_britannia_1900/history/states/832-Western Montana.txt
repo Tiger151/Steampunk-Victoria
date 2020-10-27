@@ -1,0 +1,24 @@
+state={
+	id=832
+	name="STATE_832"
+	
+	history={
+		victory_points = {
+			6742 2 	#Missoula
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = USA
+		add_core_of = CAS
+	}
+	
+	provinces={
+		1736 1854 4838 6742 7779 12676 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

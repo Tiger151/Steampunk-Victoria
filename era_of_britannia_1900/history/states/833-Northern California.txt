@@ -1,0 +1,28 @@
+state={
+	id=833
+	name="STATE_833"
+	
+	history={
+		victory_points = {
+			3588 3 	#Redding
+		}
+		victory_points = {
+			610 1 	#McKinleyville
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		add_core_of = USA
+		add_core_of = CAS
+	}
+	
+	provinces={
+		610 766 768 781 3588 3644 4331 6482 6665 6681 6745 6757 6772 9697 9730 10159 11698 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
