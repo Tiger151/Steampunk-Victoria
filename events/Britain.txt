@@ -1,0 +1,79 @@
+###########################
+# British Events
+###########################
+
+add_namespace = britain
+
+# Britain in Turmoil
+country_event = {	#British Riots
+	id = britain.1
+	title = britain.1.t
+	desc = britain.1.d
+	picture = GFX_britain_in_turmoil
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {	#Tea will lift some spirits
+		name = britain.1.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 50
+				AND = {
+					has_game_rule = {
+						has_idea = ENG_queen_victoria
+						has_government = autocratic_monarchist
+					}
+				}
+			}
+		country_event = {
+			id = britain.2
+			days = 5
+			random = 50
+		}
+	}
+	
+	option = {	#Let them wine and sour
+		name = britain.1.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 50
+				AND = {
+					has_game_rule = {
+						has_idea = ENG_queen_victoria
+						has_government = autocratic_monarchist
+					}
+				}
+			}
+		country_event = {
+			id = britain.3
+			days = 5
+			random = 50
+		}
+	}
+}
+
+# ???
+country_event = {	#British Riots
+	id = britain.2
+	title = britain.2.t
+	desc = britain.2.d
+	picture = GFX_britain_in_turmoil
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {	#???
+		name = britain.2.a
+		
+		country_event = {
+			id = britain.2
+			days = 3
+			random = 50
+		}
+	}
+}

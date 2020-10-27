@@ -1,0 +1,76 @@
+﻿###########################
+# Generic Events
+###########################
+
+add_namespace = generic
+
+# Political Reform
+country_event = {
+	id = generic.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event generic.1" }
+	title = generic.1.t
+	desc = generic.1.d
+	picture = GFX_generic_reform
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {	#Let's do this
+		name = generic.1.a
+	}
+	
+	option = {	#We should Reconsider
+		name = generic.1.a
+	}
+}
+
+# Choose your Destiny
+country_event = {
+	id = generic.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event generic.2" }
+	title = generic.2.t
+	desc = generic.2.d
+	picture = GFX_generic_choose_destiny
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {	#Far Left
+		name = generic.2.a
+	}
+	
+	option = {	#Democratic
+		name = generic.2.a
+	}
+	
+	option = {	#Centrist
+		name = generic.2.a
+	}
+	
+	option = {	#Far Right
+		name = generic.2.a
+	}
+}
+
+
+Stuff missing here---
+
+
+# A Dictator to Rule
+country_event = {
+	id = generic.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event generic.3" }
+	title = generic.7.t
+	desc = generic.7.d
+	picture = GFX_generic_dictatorship
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {	#Hail Supreme Leader!
+		name = generic.7.a
+	}
+}
