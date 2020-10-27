@@ -1,0 +1,25 @@
+state={
+	id=834
+	name="STATE_834"
+	
+	history={
+		victory_points = {
+			9671 20 	#San Francisco
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			dockyard = 2
+
+		}
+		add_core_of = USA
+	}
+	
+	provinces={
+		677 710 1601 3677 3678 6699 9637 9671 9713 11658 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

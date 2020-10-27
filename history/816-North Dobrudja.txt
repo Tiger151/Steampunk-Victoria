@@ -1,0 +1,25 @@
+state={
+	id=816
+	name="STATE_816"
+	
+	history={
+		victory_points = {
+			657 3 	#Constanta
+		}
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+	}
+	
+	provinces={
+		657 687 3076 9635 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
