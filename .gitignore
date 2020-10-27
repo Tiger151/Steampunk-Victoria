@@ -1,0 +1,8 @@
+#ignore all otherfiles in the mod directory except this mods dir and .mod file
+
+/*
+/*/
+!.gitignore
+!era_of_britannia_1900.mod
+!README.md
+!/era_of_britannia_1900/
