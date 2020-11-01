@@ -1,24 +1,37 @@
-l_english:
- 
- #Ideologies
+﻿l_english:
  ultranationalist:0 "Ultranationalist"
+ ultranationalism_noun:0 "Ultranationalism"
+ ultranationalist_desc:0 "Sorelianist Regime"
  nationalist:0 "Nationalist"
- autocratic_monarchist:0 "Autocratic Monarchist"
+ nationalist_noun:0 "Nationalism"
+ nationalist_desc:0 "Nationalism"
+ autocratic_monarchist:0 "Monarchist"
+ autocratic_monarchist_noun:0 "Monarchism"
+ autocratic_monarchist_desc:0 "Imperial Regime"
  reactionary:0 "Reactionary"
+ reactionary_noun:0 "Reactionary"
+ reactionary_desc:0 "Anti-Pogressive"
  conservative:0 "Conservative"
+ conservative_noun:0 "Conservative" 
+ conservative_desc:0 "Democracy"
  centrist:0 "Centrist"
+ centrist_noun:0 "Centrism"
+ centrist_desc:0 "Neutrality"
  liberal:0 "Liberal"
+ liberal_noun:0 "Liberalism"
+ liberal_desc:0 "Democracy"
  socialist:0 "Socialist"
+ socialist_noun:0 "Socialism"
+ socialist_desc:0 "Socialism"
  communist:0 "Communist"
- 
- #Adjectives
+ communist_noun:0 "Communism"
+ communist_desc:0 "Communist Regime"
  ultranationalist_subtype:0 "Ultranationalist"
  ultranationalism:0 "Ultranationalism"
  japanese_ultranationalism:0 "Japanese Ultranationalism"
  jingoist:0 "Jingoist"
  radical_nationalist:0 "Radical Nationalist"
  rexism:0 "Rexism"
- far_right:0 "Far Right"
  falangism:0 "Falangism"
  national_populist_subtype:0 "National Populist"
  national_populist:0 "National Populist"
@@ -34,18 +47,20 @@ l_english:
  loyalist:0 "Loyalist"
  conservative_constitutionalist:0 "Conservative Constitutionalist"
  anti_western_reformist:0 "Anti Western Reformist"
- conservative_subtype:0 "Conservative"
- right_wing:0 "Right Wing"
- social_conservatism:0 "Social Conservatism"
+ illiberal:0 "Illiberal"
  islamist:0 "Islamist"
+ conservative_subtype:0 "Conservative"
+ social_conservatism:0 "Social Conservatism"
+ market_conservatism:0 "Market Conservatism"
+ christian_democrats:0 "Christian Democrats"
  centrist_subtype:0 "Centrist"
  centrism:0 "Centrism"
  isolationist:0 "Isolationist"
  moderationist:0 "Moderationist"
  liberal_subtype:0 "Liberal"
- left_wing_politician:0 "Left Wing Politician"
  social_liberalism:0 "Social Liberalism"
  market_liberalism:0 "Market Liberalism"
+ libertarian:0 "Libertarian"
  socialist_subtype:0 "Socialist Subtype"
  syndicalism:0 "Syndicalism"
  socialism:0 "Socialism"
@@ -64,29 +79,6 @@ l_english:
  anti_revisionism:0 "Anti-Revisionism"
  anarcho_communist:0 "Anarcho Communist"
  totalism:0 "Totalism"
- far_left:0 "Far Left"
- #######################################
- TAG_ultranationalist_party:0 ""
- TAG_ultranationalist_party_long:0 ""
- TAG_nationalist_party:0 ""
- TAG_nationalist_party_long:0 ""
- TAG_autocratic_monarchist_party:0 ""
- TAG_autocratic_monarchist_party_long:0 ""
- TAG_reactionary_party:0 ""
- TAG_reactionary_party_long:0 ""
- TAG_conservative_party:0 ""
- TAG_conservative_party_long:0 ""
- TAG_centrist_party:0 ""
- TAG_centrist_party_long:0 ""
- TAG_liberal_party:0 ""
- TAG_liberal_party_long:0 ""
- TAG_socialist_party:0 ""
- TAG_socialist_party_long:0 ""
- TAG_communist_party:0 ""
- TAG_communist_party_long:0 ""
- #######################################
- 
- #Countries
  CRI_ultranationalist_party:0 "Krymskoye"
  CRI_ultranationalist_party_long:0 "Krymskoye Gosudarstvo Krymskoye"
  CRI_nationalist_party:0 "NPKG"
@@ -123,10 +115,10 @@ l_english:
  ABK_socialist_party_long:0 "Social-Democratic Party of Abkhazia"
  ABK_communist_party:0 "CPA"
  ABK_communist_party_long:0 "Communist Party of Abkhazia"
- RUS_ultranationalist_party:0 "RFP"
- RUS_ultranationalist_party_long:0 "Russkaya fashistskaya partiya"
+ RUS_ultranationalist_party:0 "RSPS"
+ RUS_ultranationalist_party_long:0 "Rossiyskiy Sorelianskiy Partiynyy Sovet"
  RUS_nationalist_party:0 "RNP"
- RUS_nationalist_party_long:0 "Rossiyskaya natsionalisticheskaya partiya"
+ RUS_nationalist_party_long:0 "Rossiyskaya Natsionalisticheskaya Partiya"
  RUS_autocratic_monarchist_party:0 "Romanov"
  RUS_autocratic_monarchist_party_long:0 "Holstein-Gottorp-Romanov"
  RUS_reactionary_party:0 "SRR"
@@ -142,7 +134,7 @@ l_english:
  RUS_communist_party:0 "Bolshevik"
  RUS_communist_party_long:0 "Bol'sheviki"
  SOV_ultranationalist_party:0 "RFP"
- SOV_ultranationalist_party_long:0 "Russkaya fashistskaya partiya"
+ SOV_ultranationalist_party_long:0 "Russkaya Sorelianst Partiya"
  SOV_nationalist_party:0 "RNP"
  SOV_nationalist_party_long:0 "Rossiyskaya natsionalisticheskaya partiya"
  SOV_autocratic_monarchist_party:0 "Romanov"
@@ -155,12 +147,12 @@ l_english:
  SOV_centrist_party_long:0 "Tsentral'naya Partiya Rossii"
  SOV_liberal_party:0 "LDPR"
  SOV_liberal_party_long:0 "Liberal'no-demokraticheskaya Partiya Rossii"
- SOV_socialist_party:0 "RSDRP"
- SOV_socialist_party_long:0 "Rossiyskaya Sotsial-demokraticheskaya Rabochaya Partiya"
- SOV_communist_party:0 "Bolshevik"
- SOV_communist_party_long:0 "Bol'sheviki"
- GER_ultranationalist_party:0 "KPD"
- GER_ultranationalist_party_long:0 "KPD"
+ SOV_socialist_party:0 "Mensheviks"
+ SOV_socialist_party_long:0 "The Mensheviks Party"
+ SOV_communist_party:0 "Bolsheviks"
+ SOV_communist_party_long:0 "The Bolsheviks Party"
+ GER_ultranationalist_party:0 ""
+ GER_ultranationalist_party_long:0 ""
  GER_nationalist_party:0 "NPDS"
  GER_nationalist_party_long:0 "Nationalistische Partei der deutschen Staaten"
  GER_autocratic_monarchist_party:0 "Loyalist"
@@ -173,30 +165,51 @@ l_english:
  GER_centrist_party_long:0 "Zentristischer Deutscher Rat und Regierung"
  GER_liberal_party:0 "SLDL"
  GER_liberal_party_long:0 "Soziale Lierals von Deutschland"
- GER_socialist_party:0 "SP"
+ GER_socialist_party:0 "SPD"
  GER_socialist_party_long:0 "Sozialistische Partei Deutschlands"
  GER_communist_party:0 "KPDS"
  GER_communist_party_long:0 "Kommunistische Partei des deutschen Staates"
  
  
- TAG_ultranationalist_party:0 ""
- TAG_ultranationalist_party_long:0 ""
- TAG_nationalist_party:0 ""
- TAG_nationalist_party_long:0 ""
- TAG_autocratic_monarchist_party:0 ""
- TAG_autocratic_monarchist_party_long:0 ""
- TAG_reactionary_party:0 ""
- TAG_reactionary_party_long:0 ""
- TAG_conservative_party:0 ""
- TAG_conservative_party_long:0 ""
- TAG_centrist_party:0 ""
- TAG_centrist_party_long:0 ""
- TAG_liberal_party:0 ""
- TAG_liberal_party_long:0 ""
- TAG_socialist_party:0 ""
- TAG_socialist_party_long:0 ""
- TAG_communist_party:0 ""
- TAG_communist_party_long:0 ""
+ USA_ultranationalist_party:0 ""
+ USA_ultranationalist_party_long:0 ""
+ USA_nationalist_party:0 ""
+ USA_nationalist_party_long:0 ""
+ USA_autocratic_monarchist_party:0 ""
+ USA_autocratic_monarchist_party_long:0 ""
+ USA_reactionary_party:0 ""
+ USA_reactionary_party_long:0 ""
+ USA_conservative_party:0 ""
+ USA_conservative_party_long:0 ""
+ USA_centrist_party:0 ""
+ USA_centrist_party_long:0 ""
+ USA_liberal_party:0 ""
+ USA_liberal_party_long:0 ""
+ USA_socialist_party:0 ""
+ USA_socialist_party_long:0 ""
+ USA_communist_party:0 ""
+ USA_communist_party_long:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  

@@ -1,10 +1,11 @@
+
 state={
 	id=840
 	name="STATE_840"
-	
+
 	history={
 		victory_points = {
-			917 1 	#Mackenzie
+			917 1 
 		}
 		owner = CAN
 		buildings = {
@@ -14,10 +15,11 @@ state={
 		}
 		add_core_of = CAN
 		add_core_of = CAS
+
 	}
-	
+
 	provinces={
-		917 1411 1799 10548 12508 12571 
+		917 1411 1799 5403 10548 12508 12571 
 	}
 	manpower=500
 	buildings_max_level_factor=1.000

@@ -7,14 +7,14 @@ ideas = {
 	##############
 
 	country = {
-		ENG_british_colonialism = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_british_colonialism"}
+		ENG_british_parliament = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_british_parliament"}
 			modifier = {
 				political_power_gain = 0.2
 				stability_factor = 0.01
 			}
-			name = ENG_british_colonialism
-			picture = ENG_british_colonialism
+			name = ENG_british_parliament
+			picture = ENG_british_parliament
 		}
 		
 		ENG_british_dissent = {

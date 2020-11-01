@@ -1,16 +1,10 @@
 
 state={
 	id=555
-	name="STATE_555" #Kuril Islands
-	manpower = 15000 
-	
-	state_category = tiny_island
+	name="STATE_555"
 
 	history={
 		owner = RUS
-		#add_core_of = RUS
-		#add_core_of = SOV
-		#add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			1399 = {
@@ -23,6 +17,9 @@ state={
 	}
 
 	provinces={
-		1399 1515 13037 
+		1399 1515 
 	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
 }

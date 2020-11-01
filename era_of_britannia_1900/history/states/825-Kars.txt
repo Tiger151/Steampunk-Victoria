@@ -5,12 +5,14 @@ state={
 
 	history={
 		victory_points = {
-			10472 2 
+			13243 3 
+		}
+		victory_points = {
+			7454 2 
 		}
 		owner = RUS
 		buildings = {
 			infrastructure = 4
-			dockyard = 2
 
 		}
 		add_core_of = RUS
@@ -21,7 +23,7 @@ state={
 	}
 
 	provinces={
-		6991 7454 10403 10472 
+		6991 7454 10403 10472 13243 
 	}
 	manpower=5000
 	buildings_max_level_factor=1.000

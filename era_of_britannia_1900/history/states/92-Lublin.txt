@@ -14,7 +14,6 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = RUS
 		add_core_of = SOV
 		add_core_of = POL
 		1939.1.1 = {
@@ -28,7 +27,7 @@ state={
 	}
 
 	provinces={
-		3521 3559 6484 6580 9452 9521 9544 11399 11466 13244 
+		3521 3559 6484 6580 9452 9521 9544 11399 11466 13246 
 	}
 	manpower=2464600
 	buildings_max_level_factor=1.000
