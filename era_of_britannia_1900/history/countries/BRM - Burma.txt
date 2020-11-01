@@ -45,23 +45,22 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1890.1.20"
+	ruling_party = reactionary
+	last_election = "1895.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
+	ultranationalist = 0
+	nationalist = 10
+	autocratic_monarchist = 0
+	reactionary = 70
+	conservative = 5
+	centrist = 0
+	liberal = 5
+	socialist = 10
 	communist = 0
-	socialist = 0
-	ultranationalism = 0
-	national_populist = 0
-	social_democrat = 0
-	social_liberal = 0
-	market_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 100
-	paternal_autocrat = 0
-	anarchist = 0
 }
 
 add_ideas = {

@@ -748,3 +748,11 @@ DAN = {
 	color = rgb { 188 122 122 }
 	color_ui = rgb { 188 122 122 }
 }
+LIE = {
+	color = rgb { 64 0 128 }
+	color_ui = rgb { 64 0 128 }
+}
+BOE = {
+	color = rgb { 208 114 9 }
+	color_ui = rgb { 208 114 9 }
+}

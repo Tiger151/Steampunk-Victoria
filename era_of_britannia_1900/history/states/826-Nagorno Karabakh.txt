@@ -3,9 +3,6 @@ state={
 	name="STATE_826"
 	
 	history={
-		victory_points = {
-			10472 2 	#Kars
-		}
 		owner = RUS
 		buildings = {
 			infrastructure = 4

@@ -7,15 +7,22 @@ ideas = {
 	##############
 
 	country = {
-		CSA_neo_slavery = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CSA_neo_slavery"}
+		CSA_racial_inequality = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CSA_racial_inequality"}
 			modifier = {
-				political_power_gain = 0.3
-				war_support_weekly = 0.05
+				conscription = -0.10
 				stability_factor = -0.02
 			}
-			name = CSA_neo_slavery
-			picture = CSA_neo_slavery
+			name = CSA_racial_inequality
+			picture = CSA_racial_inequality
+		}
+		CSA_religious_persecution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CSA_religious_persecution"}
+			modifier = {
+				stability_factor = -0.05
+			}
+			name = CSA_religious_persecution
+			picture = CSA_religious_persecution
 		}
 
 		####################

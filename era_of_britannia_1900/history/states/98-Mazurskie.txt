@@ -12,13 +12,12 @@ state={
 			infrastructure = 6
 
 		}
-		add_core_of = RUS
 		add_core_of = POL
 
 	}
 
 	provinces={
-		548 3230 6259 6321 6401 6567 9290 9316 11385 13245 
+		3230 6259 6321 6567 9290 9316 11385 13247 
 	}
 	manpower=1412100
 	buildings_max_level_factor=1.000

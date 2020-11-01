@@ -47,13 +47,21 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = conservative
+	last_election = "1898.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	ultranationalist = 0
+	nationalist = 0
+	autocratic_monarchist = 10
+	reactionary = 10
+	conservative = 0
+	centrist = 0
+	liberal = 0
+	socialist = 80
+	communist = 0
 }
 
 create_country_leader = {

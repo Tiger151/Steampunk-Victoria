@@ -36,20 +36,8 @@ resources = {
 		convoys = 0.1
 	}
 	
-	wood = {
-		icon_frame = 5
-		cic = 0.125
-		convoys = 0.1
-	}
-	
-	bronze = {
-		icon_frame = 5
-		cic = 0.125
-		convoys = 0.1
-	}
-	
-	gold = {
-		icon_frame = 6
+	rare_earth_metals = {
+		icon_frame = 7
 		cic = 0.125
 		convoys = 0.1
 	}

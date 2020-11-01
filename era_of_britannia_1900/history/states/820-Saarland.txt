@@ -4,7 +4,7 @@ state={
 	
 	history={
 		victory_points = {
-			11531 2 	#Saarbrucken
+			11531 5 	#Saarbrucken
 		}
 		owner = GER
 		buildings = {

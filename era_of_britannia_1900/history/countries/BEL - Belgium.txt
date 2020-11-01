@@ -76,21 +76,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = autocratic_monarchist
 	last_election = "1895.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	ultranationalist = 0
 	nationalist = 0
-	autocratic_monarchist = 0
+	autocratic_monarchist = 80
 	reactionary = 0
-	conservative = 65
-	centrist = 15
-	liberal = 18
-	socialist = 2
+	conservative = 5
+	centrist = 5
+	liberal = 5
+	socialist = 5
 	communist = 0
 }
 
@@ -98,10 +98,21 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
+	name = "Leopold II"
+	desc = "POLITICS_LEOPOLD_II_DESC"
+	picture = "Portrait_Belgium_Leopold_II.dds"
+	expire = "1963==09.12.17"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Hubert Pierlot"
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
-	expire = "1965.1.1"
+	expire = "1963.12.13"
 	ideology = social_conservatism
 	traits = {
 		#

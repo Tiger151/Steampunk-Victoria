@@ -178,13 +178,13 @@ set_politics = {
 
 set_popularities = {
 	ultranationalist = 0
-	nationalist = 10
-	autocratic_monarchist = 70
+	nationalist = 0
+	autocratic_monarchist = 11
 	reactionary = 0
-	conservative = 5
+	conservative = 40
 	centrist = 0
-	liberal = 5
-	socialist = 10
+	liberal = 49
+	socialist = 0
 	communist = 0
 }
 

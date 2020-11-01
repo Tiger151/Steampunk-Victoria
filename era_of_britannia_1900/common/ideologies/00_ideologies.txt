@@ -23,9 +23,6 @@ ideologies = {
 			rexism = {
 			}
 			
-			far_right = {
-			}
-			
 			falangism = {
 			}
 		}
@@ -38,7 +35,7 @@ ideologies = {
 			"FACTION_NAME_ULTRANATIONALIST_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 45 45 45 }
 		
 		war_impact_on_world_tension = 2.0			#Radical Nationalism
 		faction_impact_on_world_tension = 2.0
@@ -60,7 +57,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_sorelian = yes # Annex Everything
 		can_be_boosted = yes
 	}
 	
@@ -89,7 +86,7 @@ ideologies = {
 			"FACTION_NAME_NATIONALIST_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 100 100 100 }
 		
 		war_impact_on_world_tension = 1.0			#Nationalism
 		faction_impact_on_world_tension = 1.0
@@ -111,7 +108,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 		}
 
-		ai_fascist = yes # uses the fascist AI behaviour
+		ai_nationalist = yes # Sorta-Peaceful
 		can_be_boosted = yes
 	}
 
@@ -141,7 +138,7 @@ ideologies = {
 			"FACTION_NAME_AUTOCRAT_MONARCHIST_5"
 			"FACTION_NAME_AUTOCRAT_MONARCHIST_6"
 		}
-		color = { 45 45 45 }
+		color = { 255 201 14 }
 		
 		war_impact_on_world_tension = 1.0			#Autocratic Monarchist
 		faction_impact_on_world_tension = 1.0
@@ -161,7 +158,7 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
-		ai_fascist = yes
+		ai_monarchist = yes	#Imperialism and Protectionism
 		can_be_boosted = yes
 	}
 
@@ -182,6 +179,11 @@ ideologies = {
 			anti_western_reformist = {	#Russia
 			}
 			
+			illiberal = {
+			}
+			
+			islamist = {	#Pakistan
+			}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_REACTIONARY_1"
@@ -211,7 +213,7 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
-		ai_fascist = yes
+		ai_reactionary = yes	#Anti-Progressive
 		can_be_boosted = yes
 	}
 
@@ -220,13 +222,13 @@ ideologies = {
 			conservative_subtype = {
 			}
 			
-			right_wing = {
-			}
-			
 			social_conservatism = {
 			}
 			
-			islamist = {	#Pakistan
+			market_conservatism = {
+			}
+			
+			christian_democrats = {	#Bible for inspiration
 			}
 		}
 		dynamic_faction_names = {
@@ -258,7 +260,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes
+		ai_conservative = yes	#Democratic Capitalists
 		can_be_boosted = yes
 	}
 
@@ -305,7 +307,7 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
-		ai_fascist = yes
+		ai_centrist = yes	#Neutral
 		can_be_boosted = yes
 	}
 
@@ -314,13 +316,13 @@ ideologies = {
 			liberal_subtype = {
 			}
 			
-			left_wing_politician = {
-			}
-			
 			social_liberalism = {
 			}
 			
 			market_liberalism = {
+			}
+			
+			libertarian = {
 			}
 		}
 		dynamic_faction_names = {
@@ -331,7 +333,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_LIBERAL_5"
 			"FACTION_NAME_SOCIAL_LIBERAL_6"
 		}
-		color = { 255 170 0 }
+		color = { 225 223 181 }
 		
 		war_impact_on_world_tension = 1.0			#Liberalism
 		faction_impact_on_world_tension = 1.0
@@ -352,7 +354,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes
+		ai_liberal = yes	#Democratic Capitalists
 		can_be_boosted = yes
 	}
 
@@ -416,7 +418,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_socialist = yes
+		ai_socialist = yes	#Equality and Social Programing
 		can_be_boosted = yes
 	}
 
@@ -449,9 +451,6 @@ ideologies = {
 			}
 			
 			totalism = {
-			}
-			
-			far_left = {
 			}
 		}
 		
@@ -490,7 +489,7 @@ ideologies = {
 		faction_modifiers = {
 			
 		}
-		ai_communist = yes # uses the fascist AI behaviour
+		ai_communist = yes	#Very Aggressive, pushes ideology
 		can_be_boosted = yes
 
 	}
