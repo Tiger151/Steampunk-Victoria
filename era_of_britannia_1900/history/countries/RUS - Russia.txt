@@ -100,6 +100,38 @@ create_country_leader = {
 	}
 }
 
+1918.7.17 = {	#Russian Civil War
+
+	set_politics = {
+		ruling_party = autocratic_monarchist
+		last_election = "1918.7.17"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		ultranationalist = 0
+		nationalist = 0
+		autocratic_monarchist = 50
+		reactionary = 0
+		conservative = 0
+		centrist = 0
+		liberal = 0
+		socialist = 20
+		communist = 30
+	}
+)
+
+create_country_leader = {
+	name = "Kirill Vladimirovich Romanov"
+	desc = "POLITICS_KIRILL_VLADIMIROVICH_ROMANOV_DESC"
+	picture = "Portrait_RUS_Kirill_Vladimirovich_Romanov.dds"
+	expire = "1938.10.12"
+	ideology = imperial_authoritarian
+	traits = {
+		
+	}
+}
+
 add_namespace = {
 	name = "unit_leader_rus"
 	type = unit_leader
