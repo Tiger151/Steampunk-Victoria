@@ -1,0 +1,21 @@
+state={
+	id=871
+	name="STATE_871"
+	
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+
+		}
+		add_core_of = RAJ
+	}
+	
+	provinces={
+		2005 4045 4410 5040 5096 7938 10332 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

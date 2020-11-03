@@ -1,0 +1,27 @@
+
+state={
+	id=868
+	name="STATE_868"
+
+	history={
+		victory_points = {
+			10740 2 
+		}
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = CSA
+		add_core_of = USA
+
+	}
+
+	provinces={
+		1954 1998 4955 5038 8064 10740 10894 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

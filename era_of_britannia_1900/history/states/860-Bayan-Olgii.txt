@@ -1,0 +1,24 @@
+state={
+	id=860
+	name="STATE_860"
+	
+	history={
+		victory_points = {
+			10539 2 		#Khovd
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = MON
+	}
+	
+	provinces={
+		1774 1855 4751 7808 7843 7870 10539 10563 10634 10695 12520 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

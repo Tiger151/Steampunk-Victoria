@@ -1,0 +1,26 @@
+state={
+	id=889
+	name="STATE_889"
+	
+	history={
+		victory_points = {
+			4345 10 	#Montreal
+		}
+		owner = CAN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = CAN
+		add_core_of = QUE
+	}
+	
+	provinces={
+		1341 4345 7435 9601 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

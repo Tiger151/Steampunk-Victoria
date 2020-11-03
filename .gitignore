@@ -1,10 +1,9 @@
 #ignore all otherfiles in the mod directory except this mod's dir
 
 /*
-/*/
-*
 !zbackend.bat
 !!VIPER_GIT.bat
 !.gitignore
 !README.md
 !/era_of_britannia_1900/
+*.bat

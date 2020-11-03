@@ -1,0 +1,24 @@
+state={
+	id=858
+	name="STATE_858"
+	
+	history={
+		victory_points = {
+			7885 2 		#Chinggis
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = MON
+	}
+	
+	provinces={
+		1868 7749 7823 7885 12533 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

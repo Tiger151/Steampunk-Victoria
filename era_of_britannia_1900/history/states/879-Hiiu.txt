@@ -1,0 +1,26 @@
+state={
+	id=879
+	name="STATE_879"
+	
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		6201 = {
+			coastal_bunker = 3
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = EST
+	}
+	
+	provinces={
+		6201 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

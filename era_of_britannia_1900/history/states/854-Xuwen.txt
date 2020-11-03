@@ -1,0 +1,26 @@
+state={
+	id=854
+	name="STATE_854"
+	
+	history={
+		victory_points = {
+			4160 2 		#Xuwen
+		}
+		owner = CHI
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	
+	provinces={
+		4160 7135 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

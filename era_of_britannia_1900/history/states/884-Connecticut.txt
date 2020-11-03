@@ -1,0 +1,28 @@
+state={
+	id=884
+	name="STATE_884"
+	
+	history={
+		victory_points = {
+			6909 5 	#Hartford
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		6909 = {
+			coastal_bunker = 3
+		}
+		add_core_of = USA
+		add_core_of = NEW
+	}
+	
+	provinces={
+		6909 9832 9847 9850 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=town
+}
