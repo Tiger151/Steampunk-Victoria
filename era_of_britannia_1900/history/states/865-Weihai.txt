@@ -1,0 +1,27 @@
+state={
+	id=865
+	name="STATE_865"
+	
+	history={
+		victory_points = {
+			13242 5 		#Weihai
+		}
+		owner = JAP
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	
+	provinces={
+		13242 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

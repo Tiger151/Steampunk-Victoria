@@ -1,0 +1,2088 @@
+# Expanded German March Order to compliment the already outstanding marches in the game
+
+music_station = "german_march"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+# PEACE SONGS ##################
+music = {
+	song = "altekameraden"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "AmAdolfHitlerPlatz"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "badenweiler"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Bomben_auf_England"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "bombenfliegermarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "das_westwall_lied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "derkoniggratzer"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "deutschland-Hymne"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "diewachtamrhein"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "doubleeagle"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "englandlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "erika"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "ErzherzogAlbrechtMarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "florentinermarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "frankreichlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "grafzeppelinmarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "horst_wessel_marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "ImSchutzDerWehrmacht"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Kaiserhymne"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Napoleon_Marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Oh_Du_Schoner_Westerwald"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Ostpreussenlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Panzer_rollen_in_Afrika"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Petersburger_Marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "praesentiermarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Preussens_Gloria"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "PrinzEugenMarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "radetzkymarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "russlandlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Schlesien_Lied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "SS_Marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "UnserRommel"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wehrmacht_InfantrieMarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "YorkscherMarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Die_braune_Kompanie"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Des_Groben_Kurfursten_Reitermarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "RiverKwaiMarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Die_Fahne_hoch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Jagdgeschwader"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Augen_geradeaus"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Auf_Kreta_im_Sturm_und_im_Regen"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wenn_alle_untreu_werden_so_bleiben_wir_doch_treu"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Es_war_ein_Edelweiss"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wenn_die_Soldaten_Durch_die_Stadt_Marschieren"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "SS_Marschiert_in_Feindesland"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Regimentsgruss_Marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wir_sind_des_Geyers_schwarzer_Haufen"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Helenenmarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Der_alte_Dessauer"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Fehrbelliner_Reitermarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Kaiser_Wilhelm_Siegesmarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Pariser_Einzugsmarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Waidmannsheil"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Luftwaffe_Lied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Waffen_SS_Anthem"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Fallschirmjagerlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Deutschland_erwache"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Unsere_Garde"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "ade_polenland"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Deutschland_du_Land_der_Treue"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Drei_Lilien"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Ein_Heller_und_ein_Batzen"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Es_zittern_die_morschen_Knochen"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Funkerlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Grun_ist_unser_Fallschirm"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Heia_Heia_Safari"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "ich_bin_ein_freier_wildbretschutz"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "In_Einem_Polenstadtchen"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Lied_der_Panzergrenadiere"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "lied_der_panzergruppe_von_klieste"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Lore_Lore_Lore"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Panzerlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "preussenlied"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Schwarzbraun_ist_die_Haselnuss"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Sieg_Heil_Viktoria"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Sturmabteilung_Durch_Grossberlin_marschieren_wir_2"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Unsere_Panzerdivision"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Volk_ans_Gewehr"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wildganse_rauschen_durch_die_Nacht"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "fredricus_rex"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Hessen_Marsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Wir_sind_die_braunen_Soldaten"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}
+
+music = {
+	song = "Triumphmarsch"
+	
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = {
+				OR = {
+					tag = GER
+					tag = AUS
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			has_war = yes
+		}
+		modifier = {
+			factor = 2
+			has_government = fascist
+		}
+	}
+}

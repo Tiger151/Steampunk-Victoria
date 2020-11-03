@@ -1,0 +1,27 @@
+state={
+	id=877
+	name="STATE_877"
+	
+	history={
+		victory_points = {
+			3174 2 	#Parnu
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = EST
+	}
+	
+	provinces={
+		308 3174 11291 
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,25 @@
+state={
+	id=887
+	name="STATE_887"
+	
+	history={
+		victory_points = {
+			3712 2 	#Concord
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = USA
+	}
+	
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=Pastoral
+}

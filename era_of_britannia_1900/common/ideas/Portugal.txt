@@ -1,0 +1,57 @@
+### Union State ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+
+	country = {
+		POR_lisbon_tensions = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_lisbons_tensions"}
+			modifier = {
+				political_power_gain = 0.1
+				war_support_weekly = 0.01
+				stability_factor = -0.01
+			}
+			name = POR_lisbons_tensions
+			picture = POR_lisbons_tensions
+		}
+		
+		POR_republic_on_the_rise = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_republic_on_the_rise"}
+			modifier = {
+				democratic_drift
+			}
+			name = POR_republic_on_the_rise
+			picture = POR_republic_on_the_rise
+		}
+		
+		POR_naval_improvements = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_republic_on_the_rise"}
+			modifier = {
+				production_speed_naval_base_factor = 0.2
+				naval_equipment_upgrade_xp_cost = -0.5
+			}
+			name = POR_republic_on_the_rise
+			picture = POR_republic_on_the_rise
+		}
+
+		####################
+		# Population ideas
+		####################
+
+		population_growth_increase = {
+		
+			picture = population_growth_increase
+			
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			modifier = { 
+				#MONTHLY_POPULATION = 0.40
+				#consumer_goods_factor = 0.02
+				#research_speed_factor = 0.02
+			}
+			
+		}

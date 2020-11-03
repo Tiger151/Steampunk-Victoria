@@ -1,0 +1,422 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "german_march/diewachtamrhein.ogg"
+}
+
+# General Peace:
+music = {
+	name = "altekameraden"
+	file = "german_march/altekameraden.ogg"
+}
+
+music = {
+	name = "AmAdolfHitlerPlatz"
+	file = "german_march/AmAdolfHitlerPlatz.ogg"
+}
+
+music = {
+	name = "badenweiler"
+	file = "german_march/badenweiler.ogg"
+}
+
+music = {
+	name = "Bomben_auf_England"
+	file = "german_march/Bomben_auf_England.ogg"
+}
+
+music = {
+	name = "bombenfliegermarsch"
+	file = "german_march/bombenfliegermarsch.ogg"
+}
+
+music = {
+	name = "das_westwall_lied"
+	file = "german_march/das_westwall_lied.ogg"
+}
+
+music = {
+	name = "derkoniggratzer"
+	file = "german_march/derkoniggratzer.ogg"
+}
+
+music = {
+	name = "deutschland-Hymne"
+	file = "german_march/deutschland-Hymne.ogg"
+}
+
+music = {
+	name = "diewachtamrhein"
+	file = "german_march/diewachtamrhein.ogg"
+}
+
+music = {
+	name = "doubleeagle"
+	file = "german_march/doubleeagle.ogg"
+}
+
+music = {
+	name = "englandlied"
+	file = "german_march/englandlied.ogg"
+}
+
+music = {
+	name = "erika"
+	file = "german_march/erika.ogg"
+}
+
+music = {
+	name = "ErzherzogAlbrechtMarsch"
+	file = "german_march/ErzherzogAlbrechtMarsch.ogg"
+}
+
+music = {
+	name = "florentinermarsch"
+	file = "german_march/florentinermarsch.ogg"
+}
+
+music = {
+	name = "frankreichlied"
+	file = "german_march/frankreichlied.ogg"
+}
+
+music = {
+	name = "grafzeppelinmarsch"
+	file = "german_march/grafzeppelinmarsch.ogg"
+}
+
+music = {
+	name = "horst_wessel_marsch"
+	file = "german_march/horst_wessel_marsch.ogg"
+}
+
+music = {
+	name = "ImSchutzDerWehrmacht"
+	file = "german_march/ImSchutzDerWehrmacht.ogg"
+}
+
+music = {
+	name = "Kaiserhymne"
+	file = "german_march/Kaiserhymne.ogg"
+}
+
+music = {
+	name = "Napoleon_Marsch"
+	file = "german_march/Napoleon_Marsch.ogg"
+}
+
+music = {
+	name = "Oh_Du_Schoner_Westerwald"
+	file = "german_march/Oh_Du_Schoner_Westerwald.ogg"
+}
+
+music = {
+	name = "Ostpreussenlied"
+	file = "german_march/Ostpreussenlied.ogg"
+}
+
+music = {
+	name = "Panzer_rollen_in_Afrika"
+	file = "german_march/Panzer_rollen_in_Afrika.ogg"
+}
+
+music = {
+	name = "Petersburger_Marsch"
+	file = "german_march/Petersburger_Marsch.ogg"
+}
+
+music = {
+	name = "praesentiermarsch"
+	file = "german_march/praesentiermarsch.ogg"
+}
+
+music = {
+	name = "Preussens_Gloria"
+	file = "german_march/Preussens_Gloria.ogg"
+}
+
+music = {
+	name = "PrinzEugenMarsch"
+	file = "german_march/PrinzEugenMarsch.ogg"
+}
+
+music = {
+	name = "radetzkymarsch"
+	file = "german_march/radetzkymarsch.ogg"
+}
+
+music = {
+	name = "russlandlied"
+	file = "german_march/german_march/russlandlied.ogg"
+}
+
+music = {
+	name = "Schlesien_Lied"
+	file = "german_march/Schlesien_Lied.ogg"
+}
+
+music = {
+	name = "SS_Marsch"
+	file = "german_march/SS_Marsch.ogg"
+}
+
+music = {
+	name = "UnserRommel"
+	file = "german_march/UnserRommel.ogg"
+}
+
+music = {
+	name = "Wehrmacht_InfantrieMarsch"
+	file = "german_march/Wehrmacht_InfantrieMarsch.ogg"
+}
+
+music = {
+	name = "YorkscherMarsch"
+	file = "german_march/YorkscherMarsch.ogg"
+}
+
+music = {
+	name = "Die_braune_Kompanie"
+	file = "german_march/Die_braune_Kompanie.ogg"
+}
+
+music = {
+	name = "Des_Groben_Kurfursten_Reitermarsch"
+	file = "german_march/Des_Groben_Kurfursten_Reitermarsch.ogg"
+}
+
+music = {
+	name = "RiverKwaiMarsch"
+	file = "german_march/RiverKwaiMarsch.ogg"
+}
+
+music = {
+	name = "Die_Fahne_hoch"
+	file = "german_march/Die_Fahne_hoch.ogg"
+}
+
+music = {
+	name = "Jagdgeschwader"
+	file = "german_march/Jagdgeschwader.ogg"
+}
+
+music = {
+	name = "Augen_geradeaus"
+	file = "german_march/Augen_geradeaus.ogg"
+}
+
+music = {
+	name = "Auf_Kreta_im_Sturm_und_im_Regen"
+	file = "german_march/Auf_Kreta_im_Sturm_und_im_Regen.ogg"
+}
+
+music = {
+	name = "Wenn_alle_untreu_werden_so_bleiben_wir_doch_treu"
+	file = "german_march/Wenn_alle_untreu_werden_so_bleiben_wir_doch_treu.ogg"
+}
+
+music = {
+	name = "Es_war_ein_Edelweiss"
+	file = "german_march/Es_war_ein_Edelweiss.ogg"
+}
+
+music = {
+	name = "Wenn_die_Soldaten_Durch_die_Stadt_Marschieren"
+	file = "german_march/Wenn_die_Soldaten_Durch_die_Stadt_Marschieren.ogg"
+}
+
+music = {
+	name = "SS_Marschiert_in_Feindesland"
+	file = "SS_Marschiert_in_Feindesland.ogg"
+}
+
+music = {
+	name = "Regimentsgruss_Marsch"
+	file = "german_march/Regimentsgruss_Marsch.ogg"
+}
+
+music = {
+	name = "Wir_sind_des_Geyers_schwarzer_Haufen"
+	file = "german_march/Wir_sind_des_Geyers_schwarzer_Haufen.ogg"
+}
+
+music = {
+	name = "Der_alte_Dessauer"
+	file = "german_march/Der_alte_Dessauer.ogg"
+}
+
+music = {
+	name = "Fehrbelliner_Reitermarsch"
+	file = "german_march/Fehrbelliner_Reitermarsch.ogg"
+}
+
+music = {
+	name = "Kaiser_Wilhelm_Siegesmarsch"
+	file = "german_march/Kaiser_Wilhelm_Siegesmarsch.ogg"
+}
+
+music = {
+	name = "Pariser_Einzugsmarsch"
+	file = "german_march/Pariser_Einzugsmarsch.ogg"
+}
+
+music = {
+	name = "Waidmannsheil"
+	file = "german_march/Waidmannsheil.ogg"
+}
+
+music = {
+	name = "Deutschland_erwache"
+	file = "german_march/Deutschland_erwache.ogg"
+}
+
+music = {
+	name = "Helenenmarsch"
+	file = "german_march/Helenenmarsch.ogg"
+}
+
+music = {
+	name = "Unsere_Garde"
+	file = "german_march/Unsere_Garde.ogg"
+}
+
+music = {
+	name = "Fallschirmjagerlied"
+	file = "german_march/Fallschirmjagerlied.ogg"
+}
+
+music = {
+	name = "Waffen_SS_Anthem"
+	file = "german_march/Waffen_SS_Anthem.ogg"
+}
+
+music = {
+	name = "Luftwaffe_Lied"
+	file = "german_march/Luftwaffe_Lied.ogg"
+}
+
+music = {
+	name = "ade_polenland"
+	file = "german_march/ade_polenland.ogg"
+}
+
+music = {
+	name = "Deutschland_du_Land_der_Treue"
+	file = "german_march/Deutschland_du_Land_der_Treue.ogg"
+}
+
+music = {
+	name = "Drei_Lilien"
+	file = "german_march/Drei_Lilien.ogg"
+}
+
+music = {
+	name = "Ein_Heller_und_ein_Batzen"
+	file = "german_march/Ein_Heller_und_ein_Batzen.ogg"
+}
+
+music = {
+	name = "Es_zittern_die_morschen_Knochen"
+	file = "german_march/Es_zittern_die_morschen_Knochen.ogg"
+}
+
+music = {
+	name = "Funkerlied"
+	file = "german_march/Funkerlied.ogg"
+}
+
+music = {
+	name = "Grun_ist_unser_Fallschirm"
+	file = "german_march/Grun_ist_unser_Fallschirm.ogg"
+}
+
+music = {
+	name = "Heia_Heia_Safari"
+	file = "german_march/Heia_Heia_Safari.ogg"
+}
+
+music = {
+	name = "ich_bin_ein_freier_wildbretschutz"
+	file = "german_march/ich_bin_ein_freier_wildbretschutz.ogg"
+}
+
+music = {
+	name = "In_Einem_Polenstadtchen"
+	file = "german_march/In_Einem_Polenstadtchen.ogg"
+}
+
+music = {
+	name = "Lied_der_Panzergrenadiere"
+	file = "vLied_der_Panzergrenadiere.ogg"
+}
+
+music = {
+	name = "lied_der_panzergruppe_von_klieste"
+	file = "german_march/lied_der_panzergruppe_von_klieste.ogg"
+}
+
+music = {
+	name = "Lore_Lore_Lore"
+	file = "german_march/Lore_Lore_Lore.ogg"
+}
+
+music = {
+	name = "Panzerlied"
+	file = "german_march/Panzerlied.ogg"
+}
+
+music = {
+	name = "preussenlied"
+	file = "german_march/preussenlied.ogg"
+}
+
+music = {
+	name = "Schwarzbraun_ist_die_Haselnuss"
+	file = "german_march/Schwarzbraun_ist_die_Haselnuss.ogg"
+}
+
+music = {
+	name = "Sieg_Heil_Viktoria"
+	file = "german_march/Sieg_Heil_Viktoria.ogg"
+}
+
+music = {
+	name = "Sturmabteilung_Durch_Grossberlin_marschieren_wir_2"
+	file = "german_march/Sturmabteilung_Durch_Grossberlin_marschieren_wir_2.ogg"
+}
+
+music = {
+	name = "Unsere_Panzerdivision"
+	file = "german_march/Unsere_Panzerdivision.ogg"
+}
+
+music = {
+	name = "Volk_ans_Gewehr"
+	file = "german_march/Volk_ans_Gewehr.ogg"
+}
+
+music = {
+	name = "Wildganse_rauschen_durch_die_Nacht"
+	file = "german_march/Wildganse_rauschen_durch_die_Nacht.ogg"
+}
+
+music = {
+	name = "fredricus_rex"
+	file = "german_march/fredricus_rex.ogg"
+}
+
+music = {
+	name = "Hessen_Marsch"
+	file = "german_march/Hessen_Marsch.ogg"
+}
+
+music = {
+	name = "Triumphmarsch"
+	file = "german_march/Triumphmarsch.ogg"
+}
+
+music = {
+	name = "Wir_sind_die_braunen_Soldaten"
+	file = "german_march/Wir_sind_die_braunen_Soldaten.ogg"
+}

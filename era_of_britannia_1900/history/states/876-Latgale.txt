@@ -1,0 +1,28 @@
+state={
+	id=876
+	name="STATE_876"
+	
+	history={
+		victory_points = {
+			341 2 	#Rezekne
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = LAT
+	}
+	
+	provinces={
+		222 310 319 341 3298 6459 9275 
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

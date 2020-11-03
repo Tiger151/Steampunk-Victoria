@@ -1,0 +1,28 @@
+state={
+	id=874
+	name="STATE_874"
+	
+	history={
+		victory_points = {
+			9340 10 		#Riga
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 2
+
+		}
+		add_core_of = RUS
+		add_core_of = SOV
+		add_core_of = LAT
+	}
+	
+	provinces={
+		9340 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

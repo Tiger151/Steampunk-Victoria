@@ -1,0 +1,28 @@
+state={
+	id=883
+	name="STATE_883"
+	
+	history={
+		victory_points = {
+			11830 3 	#Providence
+		}
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+
+		}
+		11830 = {
+			coastal_bunker = 3
+		}
+		add_core_of = USA
+		add_core_of = NEW
+	}
+	
+	provinces={
+		11830 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
