@@ -1,0 +1,1259 @@
+search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+
+	
+ 
+	
+	
+	FOCUS_FILTER_RESEARCH = 522
+
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+}
+
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = generic_industrial_renovation_i
+	}
+
+	#Focus for A Militarized State
+	focus = {
+		id = generic_a_militarized_state
+		icon = GFX_goal_generic_construct_military
+		x = 29
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_sonar_stations 
+		}
+		prerequisite = { 
+			focus = generic_naval_industry_iii 
+		}
+		prerequisite = { 
+			focus = generic_airfield_capacity_ii 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Naval Industry III
+	focus = {
+		id = generic_naval_industry_iii
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_naval_industry_ii }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Hardcore President
+	focus = {
+		id = generic_a_hardcore_president
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_reeducate_the_populous }
+		search_filters = { FOCUS_FILTER_STABILITY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sonar Stations
+	focus = {
+		id = generic_sonar_stations
+		icon = GFX_goal_generic_radar
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_grand_propaganda }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Nation that's Ready
+	focus = {
+		id = generic_a_nation_thats_ready
+		icon = GFX_goal_anschluss
+		x = 18
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_permanent_political_standards 
+			focus = generic_supreme_order_of_the_king 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Religious Question
+	focus = {
+		id = generic_religious_question
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_repeal_the_constitutionals }
+		mutually_exclusive = { focus = generic_a_secular_monarchist }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Our Tools
+	focus = {
+		id = generic_improve_our_tools
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_infrastructure_development_iv 
+			focus = generic_research_facilities 
+			focus = generic_construction_division 
+		}
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Balance the Lifestyle
+	focus = {
+		id = generic_balance_the_lifestyle
+		icon = GFX_goal_generic_soviet_construction
+		x = 7
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_social_reform }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bring Back Old Traditions
+	focus = {
+		id = generic_bring_back_old_traditions
+		icon = GFX_goal_unknown
+		x = 9
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_reeducate_the_populous }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Extensive Rights
+	focus = {
+		id = generic_extensive_rights
+		icon = GFX_goal_generic_improve_relations
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_political_evaluation }
+		mutually_exclusive = { focus = generic_strengthen_our_power }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			add_popularity = {
+ideology = conservative
+popularity = 0.1
+}
+add_popularity = {
+ideology = liberal
+popularity = 0.1
+}
+		}
+		completion_reward = {
+			add_ideas = generic_Libertarian_paths
+		}
+	}
+
+	#Focus for Political Evaluation
+	focus = {
+		id = generic_political_evaluation
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 9
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	#Focus for Armored Divisions
+	focus = {
+		id = generic_armored_divisions
+		icon = GFX_goal_generic_army_tanks
+		x = 24
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_field_barrels_of_war }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Traditional Symbol
+	focus = {
+		id = generic_traditional_symbol
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_constitutional }
+		mutually_exclusive = { focus = generic_limited_power }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strengthen our Power
+	focus = {
+		id = generic_strengthen_our_power
+		icon = GFX_goal_generic_demand_territory
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_political_evaluation }
+		mutually_exclusive = { 
+			focus = generic_extensive_rights 
+		}
+		mutually_exclusive = { 
+			focus = generic_a_new_monarch 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			add_popularity = {
+ideology = ultranationalist
+popularity = 0.1
+}
+		}
+		completion_reward = {
+			add_ideas = generic_Authoritarian_paths
+		}
+	}
+
+	#Focus for Industrial Renovation I
+	focus = {
+		id = generic_industrial_renovation_i
+		icon = GFX_goal_generic_construction2
+		x = 3
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hire Prospectors
+	focus = {
+		id = generic_hire_prospectors
+		icon = GFX_focus_generic_tungsten
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_industrial_renovation_i }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = {
+					type = steel
+					amount = 10
+					state = THIS
+				}
+			}
+		}
+	}
+
+	#Focus for Industrial Renovation II
+	focus = {
+		id = generic_industrial_renovation_ii
+		icon = GFX_goal_generic_construction2
+		x = 5
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_industrial_renovation_i }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Monarch
+	focus = {
+		id = generic_a_new_monarch
+		icon = GFX_focus_generic_monarchy_2
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_political_evaluation }
+		mutually_exclusive = { focus = generic_strengthen_our_power }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Absolutism
+	focus = {
+		id = generic_absolutism
+		icon = GFX_focus_rom_royal_dictatorship
+		x = 22
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_a_new_monarch }
+		mutually_exclusive = { focus = generic_constitutional }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Constitutional
+	focus = {
+		id = generic_constitutional
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		x = 18
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_a_new_monarch }
+		mutually_exclusive = { focus = generic_absolutism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Localized Resources
+	focus = {
+		id = generic_localized_resources
+		icon = GFX_goal_generic_construction2
+		x = 1
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_hire_prospectors }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infrastructure Development I
+	focus = {
+		id = generic_infrastructure_development_i
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_industrial_renovation_ii }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crude Activity
+	focus = {
+		id = generic_crude_activity
+		icon = GFX_goal_generic_oil_refinery
+		x = 3
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_hire_prospectors 
+			focus = generic_industrial_renovation_ii 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fight Corruption
+	focus = {
+		id = generic_fight_corruption
+		icon = GFX_focus_rom_parties_end
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_extensive_rights }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Oligarchical Voting
+	focus = {
+		id = generic_oligarchical_voting
+		icon = GFX_focus_generic_military_academy
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_extensive_rights }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Industrial Renovation III
+	focus = {
+		id = generic_industrial_renovation_iii
+		icon = GFX_goal_generic_construction2
+		x = 5
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_infrastructure_development_i }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Enthusiasm
+	focus = {
+		id = generic_national_enthusiasm
+		icon = GFX_goal_molotov_ribbentrop_pact
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_strengthen_our_power }
+		mutually_exclusive = { focus = generic_socialism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Socialism
+	focus = {
+		id = generic_socialism
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_strengthen_our_power }
+		mutually_exclusive = { focus = generic_national_enthusiasm }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infrastructure Development II
+	focus = {
+		id = generic_infrastructure_development_ii
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_infrastructure_development_i }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Infrastructure Development III
+	focus = {
+		id = generic_infrastructure_development_iii
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_infrastructure_development_ii 
+		}
+		prerequisite = { 
+			focus = generic_industrial_renovation_iii 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Enhancement
+	focus = {
+		id = generic_military_enhancement
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_industrial_renovation_iii }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand Agriculture
+	focus = {
+		id = generic_expand_agriculture
+		icon = GFX_goal_generic_construct_civilian
+		x = 1
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_localized_resources }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Reform
+	focus = {
+		id = generic_social_reform
+		icon = GFX_focus_generic_concessions
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_oligarchical_voting }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Communism Rises
+	focus = {
+		id = generic_communism_rises
+		icon = GFX_goal_support_communism
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_socialism }
+		mutually_exclusive = { focus = generic_domestic_support }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Domestic Support
+	focus = {
+		id = generic_domestic_support
+		icon = GFX_goal_tripartite_pact
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_socialism }
+		mutually_exclusive = { focus = generic_communism_rises }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ultranationalist
+	focus = {
+		id = generic_ultranationalist
+		icon = GFX_goal_support_fascism
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_national_enthusiasm }
+		mutually_exclusive = { focus = generic_patriotic_nationalism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Civilian Luxury
+	focus = {
+		id = generic_civilian_luxury
+		icon = GFX_goal_generic_consumer_goods
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_expand_agriculture }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			has_government = ultranationalist
+has_government = communist
+		}
+		available = {
+			has_government = conservative
+has_government = liberal
+has_government = socialist
+		}
+	}
+
+	#Focus for Infrastructure Development IV
+	focus = {
+		id = generic_infrastructure_development_iv
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_infrastructure_development_ii }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Research Facilities
+	focus = {
+		id = generic_research_facilities
+		icon = GFX_focus_research2
+		x = 5
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_infrastructure_development_iii 
+		}
+		prerequisite = { 
+			focus = generic_military_enhancement 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Overhaul
+	focus = {
+		id = generic_military_overhaul
+		icon = GFX_goal_rhineland
+		x = 26
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Field Barrels of War
+	focus = {
+		id = generic_field_barrels_of_war
+		icon = GFX_goal_generic_army_artillery2
+		x = 24
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_military_overhaul }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Barracks
+	focus = {
+		id = generic_new_barracks
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 28
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_military_overhaul }
+		search_filters = { FOCUS_FILTER_MANPOWER } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 10000
+		}
+	}
+
+	#Focus for Tactical Moves
+	focus = {
+		id = generic_tactical_moves
+		icon = GFX_goal_generic_army_doctrines
+		x = 28
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_new_barracks }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Construction Division
+	focus = {
+		id = generic_construction_division
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_civilian_luxury }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Limited Power
+	focus = {
+		id = generic_limited_power
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_constitutional }
+		mutually_exclusive = { focus = generic_traditional_symbol }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Patriotic Nationalism
+	focus = {
+		id = generic_patriotic_nationalism
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_national_enthusiasm }
+		mutually_exclusive = { focus = generic_ultranationalist }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Repeal the Constitutionals
+	focus = {
+		id = generic_repeal_the_constitutionals
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 22
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_absolutism }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ocean Goers
+	focus = {
+		id = generic_ocean_goers
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		x = 31
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Battleships to Sail
+	focus = {
+		id = generic_battleships_to_sail
+		icon = GFX_goal_generic_navy_battleship
+		x = 30
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_ocean_goers }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for U-Boat Effort
+	focus = {
+		id = generic_uboat_effort
+		icon = GFX_goal_generic_navy_anti_submarine
+		x = 32
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_ocean_goers }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Riflemen Effort
+	focus = {
+		id = generic_riflemen_effort
+		icon = GFX_goal_generic_small_arms
+		x = 26
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_military_overhaul }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mobilization of the Masses
+	focus = {
+		id = generic_mobilization_of_the_masses
+		icon = GFX_focus_generic_little_entente
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_riflemen_effort }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Sea Fortress Project
+	focus = {
+		id = generic_a_sea_fortress_project
+		icon = GFX_goal_unknown ##Unfortunately, the tool could not find your icon in the game's files
+		x = 30
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_battleships_to_sail }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Naval Industry
+	focus = {
+		id = generic_naval_industry
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 32
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_uboat_effort }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Naval Industry II
+	focus = {
+		id = generic_naval_industry_ii
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 32
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_naval_industry }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Carrier Initiative
+	focus = {
+		id = generic_carrier_initiative
+		icon = GFX_goal_generic_navy_carrier
+		x = 30
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_a_sea_fortress_project }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Grand Propaganda
+	focus = {
+		id = generic_grand_propaganda
+		icon = GFX_goal_generic_propaganda
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_mobilization_of_the_masses }
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Experienced Officers
+	focus = {
+		id = generic_experienced_officers
+		icon = GFX_goal_unknown
+		x = 28
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_tactical_moves }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Mobile Bunker
+	focus = {
+		id = generic_a_mobile_bunker
+		icon = GFX_goal_unknown
+		x = 24
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_armored_divisions }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Air Supremacy
+	focus = {
+		id = generic_air_supremacy
+		icon = GFX_goal_generic_build_airforce
+		x = 35
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bombers
+	focus = {
+		id = generic_bombers
+		icon = GFX_goal_generic_air_bomber
+		x = 36
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_air_supremacy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Scramble some Fighters
+	focus = {
+		id = generic_scramble_some_fighters
+		icon = GFX_goal_generic_air_fighter2
+		x = 34
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_air_supremacy }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arial Ambush Tactics
+	focus = {
+		id = generic_arial_ambush_tactics
+		icon = GFX_goal_generic_air_doctrine
+		x = 34
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_scramble_some_fighters }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Airfield Capacity
+	focus = {
+		id = generic_airfield_capacity
+		icon = GFX_goal_generic_construction2
+		x = 34
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_arial_ambush_tactics }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Sky Storm
+	focus = {
+		id = generic_a_sky_storm
+		icon = GFX_goal_generic_occupy_start_war
+		x = 36
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_bombers }
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Airfield Capacity II
+	focus = {
+		id = generic_airfield_capacity_ii
+		icon = GFX_goal_generic_construction2
+		x = 35
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_airfield_capacity 
+		}
+		prerequisite = { 
+			focus = generic_the_elite_pilots 
+		}
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Elite Pilots
+	focus = {
+		id = generic_the_elite_pilots
+		icon = GFX_focus_YUG_ikarus
+		x = 36
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_a_sky_storm }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Democratic Reactionarys
+	focus = {
+		id = generic_democratic_reactionarys
+		icon = GFX_goal_continuous_suppression
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_oligarchical_voting }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Culture of Science
+	focus = {
+		id = generic_a_culture_of_science
+		icon = GFX_goal_continuous_research
+		x = 10
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_communism_rises 
+			focus = generic_domestic_support 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Duel Thinking
+	focus = {
+		id = generic_duel_thinking
+		icon = GFX_goal_generic_position_armies
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_traditional_symbol 
+			focus = generic_limited_power 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Order
+	focus = {
+		id = generic_a_new_order
+		icon = GFX_goal_generic_political_pressure
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_patriotic_nationalism 
+			focus = generic_ultranationalist 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Permanent Political Standards
+	focus = {
+		id = generic_permanent_political_standards
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_a_culture_of_science 
+			focus = generic_a_new_order 
+			focus = generic_duel_thinking 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Re-educate the Populous
+	focus = {
+		id = generic_reeducate_the_populous
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_democratic_reactionarys }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Secular Monarchist
+	focus = {
+		id = generic_a_secular_monarchist
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = generic_repeal_the_constitutionals }
+		mutually_exclusive = { focus = generic_religious_question }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Supreme Order of the King
+	focus = {
+		id = generic_supreme_order_of_the_king
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = generic_religious_question 
+			focus = generic_a_secular_monarchist 
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

@@ -1,0 +1,22 @@
+state={
+	id=894
+	name="STATE_894"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+		add_core_of = USA
+	}
+	
+	provinces={
+		4287 10247 12221 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = GER
 		add_core_of = CAR
 		victory_points = {
 			12830 1 
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1974 1993 3165 5084 8078 11012 11108 12719 12830 13211 13238 13239 13240 13241 
+		1974 3165 5084 8078 11108 12719 12830 13211 13241 
 	}
 	manpower=1136921
 	buildings_max_level_factor=1.000

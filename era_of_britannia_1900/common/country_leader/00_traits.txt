@@ -1,4 +1,4 @@
-leader_traits = {	#Steampunk Victoria Traits
+leader_traits = {	#EOB Traits
 	
 	shrewd_engineer = {
 		random = no

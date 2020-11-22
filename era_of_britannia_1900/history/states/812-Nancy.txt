@@ -12,6 +12,12 @@ state={
 			dockyard = 2
 
 		}
+		521 = {
+			bunker = 10
+		}
+		11516 = {
+			bunker = 10
+		}
 		add_core_of = FRA
 		add_claim_by = GER
 	}

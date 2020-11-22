@@ -86,7 +86,7 @@ ideologies = {
 			"FACTION_NAME_NATIONALIST_5"
 		}
 		
-		color = { 100 100 100 }
+		color = { 128 64 0 }
 		
 		war_impact_on_world_tension = 1.0			#Nationalism
 		faction_impact_on_world_tension = 1.0
@@ -379,9 +379,6 @@ ideologies = {
 			social_progressive = {
 			}
 			
-			collectivism = {
-			}
-			
 			social_democrat = {
 			}
 			
@@ -452,6 +449,9 @@ ideologies = {
 			
 			totalism = {
 			}
+			
+			collectivism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -462,7 +462,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 200 0 0 }
+		color = { 180 0 0 }
 		
 		war_impact_on_world_tension = 2.0		#Communist party, pretty threatening
 		faction_impact_on_world_tension = 2.0
@@ -490,6 +490,66 @@ ideologies = {
 			
 		}
 		ai_communist = yes	#Very Aggressive, pushes ideology
+		can_be_boosted = yes
+
+	}
+
+	anarchist = {	#Executive party only (Against the ruling state)
+		
+		types = {
+		
+			anarchist_subtype = {
+			}
+			
+			marxism = {
+			}
+			
+			nihilist = {
+			}
+			
+			social_revolutionary = {
+			}
+			
+			nihilist = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+		}
+		
+		color = { 0 0 0 }
+		
+		war_impact_on_world_tension = 2.0		#Anarchist, pretty chaotic
+		faction_impact_on_world_tension = 2.0
+		
+		ai_communist = yes # uses the commie AI behaviour
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		can_collaborate = yes
+		
+		modifiers = {
+			puppet_cost_factor = -0.3
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+		}
+		
+		faction_modifiers = {
+			
+		}
+		ai_anarchist = yes	#Very Aggressive, pushes free will
 		can_be_boosted = yes
 
 	}

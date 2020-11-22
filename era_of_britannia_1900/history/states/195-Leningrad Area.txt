@@ -6,7 +6,7 @@ state={
 	history={
 		owner = RUS
 		victory_points = {
-			3151 30.0 
+			6174 50.0 
 		}
 		buildings = {
 			infrastructure = 7

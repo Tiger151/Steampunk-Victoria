@@ -1,0 +1,21 @@
+state={
+	id=892
+	name="STATE_892"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CMR
+	}
+	
+	provinces={
+		1993 6008 11012 13240 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

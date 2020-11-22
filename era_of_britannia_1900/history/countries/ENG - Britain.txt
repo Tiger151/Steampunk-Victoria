@@ -192,6 +192,13 @@ give_military_access = RAJ	#British Raj
 give_military_access = AST	#Australia
 give_military_access = NZL	#New Zealand
 
+create_faction = british_commonwealth
+add_to_faction = ENG
+add_to_faction = CAN
+add_to_faction = CSA
+add_to_faction = RAJ
+add_to_faction = AST
+
 create_country_leader = {	#Queen Victoria
 	name = "Alexandrina Victoria"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
@@ -200,6 +207,62 @@ create_country_leader = {	#Queen Victoria
 	ideology = constitutional_monarchist
 	traits = {
 		popular_queen
+	}
+}
+
+create_country_leader = {
+	name = "Keir Hardie"
+	desc = "POLITICS_KEIR_HARDIE_DESC"
+	picture = "Portrait_Britain_Keir_Hardie.dds"
+	expire = "1915.9.26"
+	ideology = social_democrat
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Herbert Louis Samuel"
+	desc = "POLITICS_HERBERT_LOUIS_SAMUEL_DESC"
+	picture = "Portrait_Britain_Herbert_Louis_Samuel.dds"
+	expire = "1963.2.5"
+	ideology = social_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Oliver Russell"
+	desc = "POLITICS_OLIVER_RUSSELL_DESC"
+	picture = "Portrait_Britain_Oliver_Russell.dds"
+	expire = "1935.2.19"
+	ideology = nationalism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "John Herny Clarke"
+	desc = "POLITICS_JOHN_HERNY_CLARKE_DESC"
+	picture = "Portrait_Britain_John_Herny_Clarke.dds"
+	expire = "1931.11.24"
+	ideology = radical_nationalist
+	traits = {
+		
+	}
+}
+
+1901.1.22 = {
+	create_country_leader = {
+		name = "Edward VII"
+		desc = "POLITICS_EDWARD_VII_DESC"
+		picture = "Portrait_Britain_Edward_VII.dds"
+		expire = "1910.5.6"
+		ideology = constitutional_monarchist
+		traits = {
+			
+		}
 	}
 }
 

@@ -63,8 +63,13 @@ set_popularities = {
 	communist = 0
 }
 
+create_faction = the_french_entente
+add_to_faction = FRA
+add_to_faction = RUS
+add_to_faction = GER
+
 add_ideas = {
-	FRA_victors_of_wwi
+	
 
 	ministers
 }
